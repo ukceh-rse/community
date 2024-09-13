@@ -3,25 +3,20 @@ labels: []
 body:
 - type: markdown
   attributes:
-    value: |
-      Some text that shows up in the template
+    value: Some text that shows up in the template
 - type: textarea
   attributes:
     label: The topic I'd like to work on is
     description: |
       Describe the topic you want to work on. Be as specific as possible.
-    validation:
-      required: true
 - type: dropdown
-  attribute:
+  attributes:
     label: Collaboration requeste
     description: Are you looking to work as a group?
     options:
     - I would prefer to work as a group
     - I am equally happy working as a group or independently
     - I would prefer to work independently on this one!
-    validation:
-      required: true
 - type: textarea
   attributes:
     label: What I would like to get out of this
