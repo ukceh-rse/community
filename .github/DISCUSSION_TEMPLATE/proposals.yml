@@ -9,6 +9,8 @@ body:
     label: The topic I'd like to work on is
     description: |
       Describe the topic you want to work on. Be as specific as possible.
+  validations:
+    required: true
 - type: dropdown
   attributes:
     label: Collaboration requeste
@@ -17,7 +19,11 @@ body:
     - I would prefer to work as a group
     - I am equally happy working as a group or independently
     - I would prefer to work independently on this one!
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: What I would like to get out of this
     description: What does success look like?
+  validations:
+    required: true
