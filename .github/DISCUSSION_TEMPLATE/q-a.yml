@@ -1,9 +1,4 @@
-title: "[Question] "
-labels: []
 body:
-- type: markdown
-  attributes:
-    value: Some text that shows up in the template
 - type: textarea
   attributes:
     label: Question

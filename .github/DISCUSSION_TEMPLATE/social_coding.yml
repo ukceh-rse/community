@@ -1,0 +1,34 @@
+labels: ["new topic"]
+body:
+- type: markdown
+  attributes:
+    value: Please complete all of the sections to propose a topic for Social Coding.
+- type: textarea
+  attributes:
+    label: I'd like to work on...
+    description: |
+      Describe what you'd like to work on.
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Collaboration
+    description: Are you looking to work as a group?
+    options:
+    - I would like to work as a group.
+    - I am equally happy working as a group or independently.
+    - I would prefer to work independently on this one!
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: My aim is to...
+    description: | 
+      What does success look like, for you? For example:
+        * Being able to apply what you've learnt to a project you're working on.
+        * Creating a short tutorial that explains how to do something.
+        * Creating a notebook or code demo.
+        * A better understanding of the topic.
+        * Learning from colleagues with expertise on the topic.
+  validations:
+    required: true

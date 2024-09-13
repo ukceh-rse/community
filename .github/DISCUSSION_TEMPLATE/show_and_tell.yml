@@ -1,0 +1,17 @@
+body:
+- type: markdown
+  attributes:
+    value: Please complete the sections below.
+- type: textarea
+  attributes:
+    label: What do you want to share?
+    description: Describe the thing you want to share with the community.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Background, people & linked discussions
+    description: |
+        Provide some background, @mention any people who contributed to this work, and provide #links to any discussions from which this work originated.
+  validations:
+    required: true
